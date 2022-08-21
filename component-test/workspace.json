@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "popperjs-error": "apps/popperjs-error",
+    "popperjs-error-e2e": "apps/popperjs-error-e2e"
+  }
+}
