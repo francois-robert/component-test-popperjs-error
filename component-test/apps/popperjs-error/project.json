@@ -92,7 +92,9 @@
       "executor": "@nrwl/cypress:cypress",
       "options": {
         "cypressConfig": "apps/popperjs-error/cypress.config.ts",
-        "testingType": "component"
+        "testingType": "component",
+        "devServerTarget": "popperjs-error:build",
+        "skipServe": true
       }
     }
   },
